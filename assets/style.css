@@ -1,36 +1,36 @@
-  body {
-    position: relative;
-    background-color: rgb(208, 165, 236);
-  }
-
+body {
+  position: relative;
+}
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: #ccc;
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-  }
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
 
-  footer {
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+footer {
   height: 105px;
   text-align: center;
 }
@@ -47,9 +47,9 @@
   height: 105px;
 } */
 
-  /* end sticky footer styling */
+/* end sticky footer styling */
 
-  /* start hover styling */
+/* start hover styling */
 /* 
 #logo:hover,
 input[type=submit]:hover {
@@ -69,130 +69,131 @@ nav a:hover {
   opacity: 0.8;
 } */
 
-  /* end hover styling */
+/* end hover styling */
 
-  /* general */
-  
-  .container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-  }
-  
-  h1, h2, h3, p {
-    margin-bottom: 20px;
-  }
-  
-  p:last-child {
-    margin-bottom: 0;
-  }
-  
-  h1, h2, h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: 700;
-    color: #4aaaa5;
-  }
-  
-  h1 {
-    padding-bottom: 20px;
-    font-size: 30px;
-    line-height: 49px;
-    border-bottom: 3px solid #dddddd;
-  }
-  
-  h2, h3 {
-    font-size: 22px;
-  }
-  
-  /* header */
-  
-  #masthead {
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
-    color: #ffffff;
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc;
-  }
-  
-  #logo {
-    float: left;
-    width: 250px;
-    height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 90px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    background: #4aaaa5;
-  }
-  
-  nav {
-      margin-top: 25px;
-  }
+/* general */
 
-  #navbar {
-    background-color: #4aaaa5
-  }
-  
-  nav a {
-    display: inline-block;
-    margin-left: 15px;
-    line-height: 18px;
-    color: #999;
-    text-decoration: none;
-    border-left: 1px solid #efefef;
-  }
-  
-  nav a:first-child {
-    border-left: 0 none;
-  }
-  
-  /* footer */
-  
-  footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
-    text-align: center;
-    background: #666666;
-    border-top: 8px solid #4aaaa5;
-  
-  }
-  
-  /* main */
-  
-  #main-container {
-    padding-top: 60px;
-    max-width: 960px;
-  }
-  
-  .main-section {
-    float: left;
-    width: 100%;
-    max-width: 650px;
-    padding: 30px;
-    margin: 0 0 40px 0;
-    background: #ffffff;
-    border: 1px solid #dddddd;
-  }
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
 
-  .auth-image {
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    float: left;
-    margin-right: 25px;
-  }
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
 
-  /* sidebar */
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: black;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #dddddd;
+}
+
+h2,
+h3 {
+  font-size: 22px;
+}
+
+/* header */
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+
+#logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: white;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+/* footer */
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid black;
+}
+
+/* main */
+
+#main-container {
+  padding-top: 60px;
+  max-width: 960px;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px 0;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+.auth-image {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  float: left;
+  margin-right: 25px;
+}
+
+/* sidebar */
 
 .sidebar {
   background: #fff;
@@ -205,7 +206,9 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-h3, .sidebar, h2 {
+h3,
+.sidebar,
+h2 {
   border-bottom: 1px solid #eee;
   padding-top: 15px;
   margin-bottom: 15px;
@@ -225,77 +228,89 @@ h3, .sidebar, h2 {
   margin-right: 0;
 }
 
-  /* portfolio page */
-  
-  .work {
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
-    overflow: auto;
-  }
-  
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
-  
-  .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-  }
-  
-  .work h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: #ffffff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-  }
-    
-  /* contact page */
-  
-  #contact-form ul {
-    margin-bottom: 20px;
-  }
-  
-  #contact-form li {
-    margin-bottom: 10px;
-  }
-  
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {
-    display: block;
-    width: 100%;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #dddddd;
-  }
-  
-  textarea {
-    height: 200px;
-  }
-  
-  input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
-  }
-  
+/* portfolio page */
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: white;
+  border-bottom: 0;
+}
+
+/* contact page */
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type="submit"] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  background: white;
+  border: 0 none;
+}
+
+/* About me Images */
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
